@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Registration</h1>
+      <form action="" method="get">
+        <div class="user">
+          <div class="input-box">
+            <span class="details">Full name</span>
+            <input type="text" placeholder="Enter your full name" required />
+          </div>
+          <div class="input-box">
+            <span class="details">User name</span>
+            <input type="text" placeholder="Enter your user name" required />
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="email" placeholder="Enter your email" required />
+          </div>
+          <div class="input-box">
+            <span class="details">Phone number</span>
+            <input type="text" placeholder="Enter your phone number" />
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="password" placeholder="Enter your password" required />
+          </div>
+          <div class="input-box">
+            <span class="details">Confirm password</span>
+            <input
+              type="password"
+              placeholder="Enter your full name"
+              required
+            />
+          </div>
+        </div>
+        <div class="gender-data">
+          <input type="radio" name="gender" id="point-1" />
+          <input type="radio" name="gender" id="point-2" />
+          <input type="radio" name="gender" id="point-3" />
+          <h3>Gender</h3>
+          <div class="gender-category">
+            <label for="point-1">
+              <span class="point one"></span>
+              <span class="gender">Male</span>
+            </label>
+            <label for="point-2">
+              <span class="point two"></span>
+              <span class="gender">Female</span>
+            </label>
+            <label for="point-3">
+              <span class="point three"></span>
+              <span class="gender">Middle</span>
+            </label>
+          </div>
+        </div>
+        <div class="confirm">
+          <input type="submit" value="registration" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
