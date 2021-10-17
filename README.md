@@ -3,4 +3,4 @@ Simple registration page with "HTML form"
 
 Here is the preview:
 
-! [Here is the preview:](registration.png)
+![Here is the preview:](registration.png)
